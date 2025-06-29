@@ -1,4 +1,4 @@
-
+/* Reordered selectors to resolve no-descending-specificity */
 
 .columns {
   background: #F8F6EE;
@@ -7,17 +7,67 @@
   box-sizing: border-box;
 }
 
-.columns > div {
-  display: flex;
-  flex-direction: column;
-}
-
 .columns img {
   width: 100%;
 }
 
+.columns ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.columns li {
+  margin: 0 0 8px;
+  padding: 0;
+}
+
+.columns p,
+.columns li {
+  color: #222;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0 0 8px;
+  padding: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.columns > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 64px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+}
+
 .columns > div > div {
+  flex: 1 1 0;
+  min-width: 140px;
+  margin: 0;
+  padding: 0;
+  background: none;
+  box-sizing: border-box;
+  text-align: left;
+  align-self: flex-start;
   order: 1;
+}
+
+.columns > div > div:first-child,
+.columns.columns2 > div > div:first-child {
+  flex: 0 0 220px;
+  max-width: 250px;
+  min-width: 180px;
+  display: flex;
+  align-items: flex-start;
 }
 
 .columns > div > .columns-img-col {
@@ -26,19 +76,6 @@
 
 .columns > div > .columns-img-col img {
   display: block;
-}
-
-@media (width >= 900px) {
-  .columns > div {
-    align-items: center;
-    flex-direction: unset;
-    gap: 24px;
-  }
-
-  .columns > div > div {
-    flex: 1;
-    order: unset;
-  }
 }
 
 .columns.columns2 {
@@ -71,6 +108,8 @@
   padding: 0;
   background: none;
   box-sizing: border-box;
+  text-align: left;
+  align-self: flex-start;
 }
 
 .columns.columns2 > div > div > *:not(p) {
@@ -89,6 +128,83 @@
   box-shadow: none;
 }
 
+.columns.columns10 {
+  background: #151F12;
+  color: #fff;
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.columns.columns10 > div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  flex: 1 0 auto;
+}
+
+.columns.columns10 > div > div {
+  display: none;
+}
+
+.columns.columns10 > div > div:first-child {
+  display: block;
+  padding-top: 60px;
+  padding-left: 90px;
+  max-width: 600px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.columns.columns10 > div > div:first-child p {
+  color: #fff;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.2;
+  white-space: normal;
+  overflow: visible;
+  text-align: left;
+}
+
+.columns.columns10::after {
+  position: absolute;
+  left: 90px;
+  right: 90px;
+  bottom: 50px;
+  height: 1px;
+  width: auto;
+  background: #ccc;
+  opacity: 0.7;
+  display: block;
+  pointer-events: none;
+  content: "";
+}
+
+@media (width >= 900px) {
+  .columns > div {
+    align-items: center;
+    flex-direction: unset;
+    gap: 24px;
+  }
+
+  .columns > div > div {
+    flex: 1;
+    order: unset;
+  }
+}
+
 @media (width <= 900px) {
   .columns.columns2 > div {
     flex-direction: column;
@@ -96,62 +212,6 @@
     padding: 1.5rem 1.2rem;
     max-width: 100%;
   }
-}
-
-.columns > div {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 64px;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0;
-  max-width: 1500px;
-  margin-left: auto;
-  margin-right: auto;
-  overflow-x: auto;
-}
-
-.columns > div > div {
-  flex: 1 1 0;
-  min-width: 140px;
-  text-align: left;
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  align-self: flex-start;
-}
-
-.columns > div > div:first-child {
-  flex: 0 0 220px;
-  max-width: 250px;
-  min-width: 180px;
-  display: flex;
-  align-items: flex-start;
-}
-
-.columns ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.columns li {
-  margin: 0 0 8px;
-  padding: 0;
-}
-
-.columns p,
-.columns li {
-  color: #222;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.2;
-  margin: 0 0 8px;
-  padding: 0;
-  background: none;
-  box-shadow: none;
 }
 
 @media (width <= 1100px) {
@@ -173,4 +233,3 @@
     min-width: 0;
   }
 }
-
