@@ -1,6 +1,72 @@
+/* Reset paragraph margin/padding first for cascade correctness */
+.hero p {
+  margin: 0;
+  padding: 0;
+}
+
+.hero.hero3.block.no-image p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading: "What We Offer" */
+.hero.hero3.block.no-image > div:last-child > div > p:first-child {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  color: #fff;
+  font-size: 1.625rem;    /* ≈26px */
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  z-index: 2;
+}
+
+/* Button: "Services" at bottom center */
+.hero.hero3.block.no-image > div:last-child > div > p:last-child {
+  position: absolute;
+  left: 50%;
+  bottom: 32px;
+  transform: translateX(-50%);
+  background: #fff;
+  color: #151E13;
+  border-radius: 999px;
+  padding: 10px 28px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.25;
+  letter-spacing: 0;
+  font-family: Inter, Helvetica Neue, Arial, sans-serif;
+  z-index: 2;
+}
+
+/* Hide all <p> except first and last */
+.hero.hero3.block.no-image > div:last-child > div > p:not(:first-child):not(:last-child) {
+  display: none;
+}
+
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
+}
+
+.hero.hero3 {
+  background: #14230F;
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: Inter, Helvetica Neue, Arial, sans-serif;
 }
 
 .hero {
