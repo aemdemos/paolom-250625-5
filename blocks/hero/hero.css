@@ -48,6 +48,10 @@
   text-align: left;
 }
 
+.hero.hero3 > div:nth-child(2) > div > p:nth-last-child(2) {
+  margin-bottom: 56px;
+}
+
 .hero.hero3 > div:nth-child(2) > div > p:not(:first-child):not(:last-child),
 .hero.hero3.block.no-image > div:last-child > div > p:not(:first-child):not(:last-child) {
   display: none;
@@ -90,10 +94,6 @@
   letter-spacing: 0;
   font-family: Inter, Helvetica Neue, Arial, sans-serif;
   z-index: 2;
-}
-
-.hero.hero3 > div:nth-child(2) > div > p:nth-last-child(2) {
-  margin-bottom: 56px;
 }
 
 .hero-container .hero-wrapper {
@@ -181,8 +181,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   min-height: 600px;
   object-fit: cover;
   object-position: center;
@@ -212,6 +212,9 @@
   justify-content: flex-start;
   pointer-events: none;
   min-height: 0;
+  padding-left: 24px;
+  padding-bottom: 84px;
+  box-sizing: border-box;
 }
 
 .hero.hero6 > div:last-child > div {
@@ -229,123 +232,5 @@
 
   .hero.hero6 > div:last-child p {
     font-size: clamp(26px, 12vw, 44px);
-  }
-}
-
-/* ------ GENERATED CSS ------ */
-
-.hero.hero9 {
-  position: relative;
-  width: 100vw;
-  min-height: 750px;
-  height: 100vh;
-  box-sizing: border-box;
-  overflow: hidden;
-  background:
-    linear-gradient(rgb(0 0 0 / 42%), rgb(0 0 0 / 42%)),
-    url('./media_18cd2e0878fdc2f248b1c5dedcf9365dea4581635.jpg?width=2000&format=jpg&optimize=medium') center center / cover no-repeat;
-  margin: 0;
-  padding: 0;
-}
-
-/* Remove image/picture from DOM flow */
-.hero.hero9 > div:first-child {
-  display: none;
-}
-
-/* Text overlay: align to bottom left with tighter spacing */
-.hero.hero9 > div:nth-child(2) {
-  position: absolute;
-  bottom: 40px;
-  left: 40px;
-  z-index: 2;
-  max-width: 620px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-end;
-  pointer-events: none;
-  margin: 0;
-  padding: 0;
-}
-
-.hero.hero9 > div:nth-child(2) > div {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 0;
-  padding: 0;
-}
-
-@media (width <= 900px) {
-  .hero.hero9 > div:nth-child(2) {
-    left: 16px;
-    bottom: 24px;
-    max-width: 98vw;
-  }
-
-  .hero.hero9 > div:nth-child(2) p {
-    max-width: 94vw;
-    font-size: clamp(18px, 8vw, 28px);
-  }
-}
-
-@media (width <= 600px) {
-  .hero.hero9 {
-    min-height: 360px;
-    height: 60vh;
-  }
-
-  .hero.hero9 > div:nth-child(2) {
-    left: 6vw;
-    bottom: 6vw;
-    max-width: 98vw;
-  }
-
-  .hero.hero9 > div:nth-child(2) p {
-    font-size: clamp(15px, 7vw, 22px);
-    max-width: 92vw;
-  }
-}
-
-/* Remove any extra children except the main text for robustness */
-.hero.hero9 > div:nth-child(2) > *:not(div) {
-  display: none;
-}
-
-.hero.hero9 > div:nth-child(2) > div > *:not(p) {
-  display: none;
-}
-
-/* Ensure the content container stacks and left-aligns all children */
-.hero.hero3 > div:nth-child(2) > div {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-  margin-top: 60px;
-}
-
-@media (width <= 600px) {
-  .hero.hero3 > div:nth-child(2) > div {
-    margin-top: 24px;
-  }
-
-  .hero.hero3 > div:nth-child(2) > div > p:first-child,
-  .hero.hero3 > div:nth-child(2) > div > p:not(:first-child, :last-child) {
-    margin-left: 16px;
-    font-size: clamp(1.2rem, 6vw, 2rem);
-  }
-
-  .hero.hero3 > div:nth-child(2) > div > p:last-child {
-    bottom: 32px;
-    padding: 12px 18px;
-    font-size: 1rem;
-  }
-
-  .hero.hero3 > div:nth-child(2) > div > p:nth-last-child(2) {
-    margin-bottom: 32px;
   }
 }
