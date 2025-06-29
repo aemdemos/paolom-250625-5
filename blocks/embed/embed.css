@@ -1,8 +1,14 @@
+
 .embed {
   width: unset;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  max-width: 800px;
-  margin: 32px auto;
+  background: transparent;
 }
 
 .embed > div {
@@ -59,4 +65,25 @@
   border-left: 6px solid;
   top: 4px;
   left: 7px;
+}
+
+.embed p:first-of-type {
+  font-size: 42px;
+  font-weight: 600;
+  font-family: var(--heading-font-family);
+  color: var(--text-color);
+  margin: 0 0 20px;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+.embed p:not(:first-of-type) {
+  font-size: 19px;
+  font-weight: 400;
+  font-family: var(--body-font-family);
+  color: var(--text-color);
+  margin: 0;
+  line-height: 1.35;
+  max-width: 460px;
+  text-align: center;
 }
