@@ -5,6 +5,19 @@
   padding: 0;
 }
 
+.hero h1,
+.hero h2,
+.hero h3,
+.hero h4,
+.hero h5,
+.hero h6,
+.hero p {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--background-color);
+}
+
 .hero.hero6 > div:last-child p {
   color: #fff;
   font-size: clamp(48px, 8vw, 110px);
@@ -14,13 +27,26 @@
   padding: 0;
   letter-spacing: -1.2px;
   text-align: left;
-  font-family: Inter, Helvetica Neue, Arial, sans-serif;
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
   text-shadow: 0 2px 12px rgb(0 0 0 / 12%);
   white-space: pre-line;
   pointer-events: none;
 }
 
-/* Heading: "What We Offer" */
+.hero.hero9 > div:nth-child(2) p {
+  color: #fff;
+  font-family: Inter, Arial, sans-serif;
+  font-size: clamp(30px, 5vw, 42px);
+  font-weight: 700;
+  line-height: 1.13;
+  margin: 0;
+  letter-spacing: -0.015em;
+  text-shadow: 0 2px 10px rgb(0 0 0 / 18%);
+  max-width: 600px;
+  pointer-events: auto;
+  text-align: left;
+}
+
 .hero.hero3.block.no-image > div:last-child > div > p:first-child {
   position: absolute;
   top: 24px;
@@ -55,7 +81,7 @@
   text-align: center;
   line-height: 1.25;
   letter-spacing: 0;
-  font-family: Inter, Helvetica Neue, Arial, sans-serif;
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
   z-index: 2;
 }
 
@@ -77,7 +103,7 @@
   padding: 0;
   box-sizing: border-box;
   overflow: hidden;
-  font-family: Inter, Helvetica Neue, Arial, sans-serif;
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
 }
 
 .hero.hero6 {
@@ -100,19 +126,6 @@
   position: relative;
   padding: 40px 24px;
   min-height: 300px;
-}
-
-.hero h1,
-.hero h2,
-.hero h3,
-.hero h4,
-.hero h5,
-.hero h6,
-.hero p {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
 }
 
 .hero.no-image * {
@@ -210,4 +223,91 @@
   .hero.hero6 > div:last-child p {
     font-size: clamp(26px, 12vw, 44px);
   }
+}
+
+/* ------ GENERATED CSS ------ */
+
+.hero.hero9 {
+  position: relative;
+  width: 100vw;
+  min-height: 750px;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  background:
+    linear-gradient(rgb(0 0 0 / 42%), rgb(0 0 0 / 42%)),
+    url('./media_18cd2e0878fdc2f248b1c5dedcf9365dea4581635.jpg?width=2000&format=jpg&optimize=medium') center center / cover no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove image/picture from DOM flow */
+.hero.hero9 > div:first-child {
+  display: none;
+}
+
+/* Text overlay: align to bottom left with tighter spacing */
+.hero.hero9 > div:nth-child(2) {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  z-index: 2;
+  max-width: 620px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  pointer-events: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hero.hero9 > div:nth-child(2) > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+@media (width <= 900px) {
+  .hero.hero9 > div:nth-child(2) {
+    left: 16px;
+    bottom: 24px;
+    max-width: 98vw;
+  }
+
+  .hero.hero9 > div:nth-child(2) p {
+    max-width: 94vw;
+    font-size: clamp(18px, 8vw, 28px);
+  }
+}
+
+@media (width <= 600px) {
+  .hero.hero9 {
+    min-height: 360px;
+    height: 60vh;
+  }
+
+  .hero.hero9 > div:nth-child(2) {
+    left: 6vw;
+    bottom: 6vw;
+    max-width: 98vw;
+  }
+
+  .hero.hero9 > div:nth-child(2) p {
+    font-size: clamp(15px, 7vw, 22px);
+    max-width: 92vw;
+  }
+}
+
+/* Remove any extra children except the main text for robustness */
+.hero.hero9 > div:nth-child(2) > *:not(div) {
+  display: none;
+}
+
+.hero.hero9 > div:nth-child(2) > div > *:not(p) {
+  display: none;
 }
