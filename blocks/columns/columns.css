@@ -1,3 +1,4 @@
+
 /* --- Columns Base Styles --- */
 
 .columns {
@@ -140,67 +141,16 @@
 /* --- Columns10 Styles --- */
 
 .columns.columns10 {
-  background: #151F12;
+  background: #0B1708;
   color: #fff;
   min-height: 100vh;
-  width: 100%;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   position: relative;
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-}
-
-.columns.columns10 > div {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  flex: 1 0 auto;
-}
-
-.columns.columns10 > div > div {
-  display: none;
-}
-
-.columns.columns10 > div > div:first-child {
-  display: block;
-  padding-top: 60px;
-  padding-left: 90px;
-  max-width: 600px;
-  box-sizing: border-box;
-  text-align: left;
-}
-
-.columns.columns10 > div > div:first-child p {
-  color: #fff;
-  font-family: Inter, Arial, sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  margin: 0;
-  line-height: 1.2;
-  white-space: normal;
-  overflow: visible;
-  text-align: left;
-}
-
-.columns.columns10::after {
-  position: absolute;
-  left: 90px;
-  right: 90px;
-  bottom: 50px;
-  height: 1px;
-  width: auto;
-  background: #ccc;
-  opacity: 0.7;
-  display: block;
-  pointer-events: none;
-  content: "";
 }
 
 /* --- Shared & Responsive Styles --- */
@@ -343,4 +293,108 @@
     max-width: none;
     min-width: 0;
   }
+}
+
+/* --- Generated CSS --- */
+
+.columns.columns10 {
+  background: #0B1708;
+  color: #fff;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Only show the headline */
+.columns.columns10 > div > div:not(:first-child) {
+  display: none;
+}
+
+/* Main stacking, left/top alignment */
+.columns.columns10 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Headline container: minimal top/left padding and correct max-width for wrapping */
+.columns.columns10 > div > div:first-child {
+  display: block;
+  padding-top: 20px;
+  padding-left: 20px;
+  max-width: 500px;
+  text-align: left;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Headline text style */
+.columns.columns10 > div > div:first-child p {
+  color: #fff;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin: 0;
+  text-align: left;
+  white-space: pre-line;
+}
+
+/* Bottom horizontal rule: minimal inset and offset to match original */
+.columns.columns10::after {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 20px;
+  height: 1px;
+  width: auto;
+  background: #D8D8D8;
+  opacity: 1;
+  display: block;
+  pointer-events: none;
+}
+
+/* Responsive for smaller screens */
+@media (width <= 700px) {
+  .columns.columns10 > div > div:first-child {
+    padding-left: 6px;
+    padding-top: 12px;
+    max-width: 97vw;
+  }
+
+  .columns.columns10 > div > div:first-child p {
+    font-size: 17px;
+  }
+
+  .columns.columns10::after {
+    left: 3px;
+    right: 3px;
+    bottom: 10px;
+  }
+}
+
+/* --- Merged .columns.columns10 selector --- */
+.columns.columns10 {
+  background: #0B1708;
+  color: #fff;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
