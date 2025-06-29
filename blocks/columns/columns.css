@@ -1,15 +1,14 @@
-
 /* --- Columns Base Styles --- */
 
 .columns {
-  background: #F7F4EB;
-  color: #381A17;
-  min-height: 480px;
+  background: #FAF8F1;
+  color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
   width: 100%;
   box-sizing: border-box;
-  position: relative;
-  padding: 0;
-  margin: 0;
 }
 
 .columns img {
@@ -206,29 +205,7 @@
 
 /* --- Shared & Responsive Styles --- */
 
-.columns, .columns.columns10 {
-  background: #F7F4EB;
-  color: #381A17;
-  min-height: 480px;
-  width: 100%;
-  box-sizing: border-box;
-  position: relative;
-  padding: 0;
-}
-
-.columns > div, .columns.columns10 > div {
-  min-height: 480px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding: 0;
-}
-
-.columns > div > div:first-child, .columns.columns10 > div > div:first-child {
+.columns > div > div:first-child {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -240,7 +217,19 @@
   padding: 0;
 }
 
-.columns > div > div:first-child p, .columns.columns10 > div > div:first-child p {
+.columns.columns10 > div > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0;
+  min-height: 120px;
+  min-width: 0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.columns > div > div:first-child p {
   font-family: Montserrat, Inter, Arial, sans-serif;
   font-size: 2.4rem;
   color: #381A17;
@@ -249,7 +238,41 @@
   text-align: center;
 }
 
-.columns::after, .columns.columns10::after {
+.columns.columns10 > div > div:first-child p {
+  font-family: Montserrat, Inter, Arial, sans-serif;
+  font-size: 2.4rem;
+  color: #381A17;
+  margin: 0;
+  line-height: 1.15;
+  text-align: center;
+}
+
+.columns, 
+.columns.columns10 {
+  background: #F7F4EB;
+  color: #381A17;
+  min-height: 480px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  padding: 0;
+}
+
+.columns > div, 
+.columns.columns10 > div {
+  min-height: 480px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.columns::after, 
+.columns.columns10::after {
   display: none;
   opacity: 0;
   height: 0;
@@ -293,7 +316,11 @@
     max-width: 100%;
   }
 
-  .columns > div > div:first-child p, .columns.columns10 > div > div:first-child p {
+  .columns > div > div:first-child p {
+    font-size: 1.5rem;
+  }
+
+  .columns.columns10 > div > div:first-child p {
     font-size: 1.5rem;
   }
 }
@@ -316,69 +343,4 @@
     max-width: none;
     min-width: 0;
   }
-}
-
-/* --- Generated CSS --- */
-
-.columns.columns2 {
-  background: #FAF8EE;
-  padding: 0;
-  margin: 0;
-}
-
-.columns.columns2 > div {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 2rem;
-  max-width: 100vw;
-  margin: 0;
-  padding: 2rem 3vw 0;
-  box-sizing: border-box;
-}
-
-.columns.columns2 > div > div {
-  flex: 1 1 0;
-  min-width: 0;
-  max-width: none;
-  text-align: left;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.columns.columns2 > div > div > p {
-  color: #000;
-  font-family: var(--body-font-family);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.6;
-  margin: 0;
-  background: none;
-  box-shadow: none;
-  padding: 0;
-  text-align: left;
-}
-
-/* Responsive: stack columns on small screens */
-@media (width <= 900px) {
-  .columns.columns2 > div {
-    flex-direction: column;
-    gap: 1.2rem;
-    padding: 1.5rem 1rem 0;
-    max-width: 100vw;
-  }
-}
-
-/* --- Merged selector for .columns.columns2 --- */
-
-.columns.columns2 {
-  background: #FAF8EE;
-  padding: 0;
-  margin: 0;
-  width: 100vw;
-  min-width: 100vw;
-  min-height: 100vh;
-  box-sizing: border-box;
 }
