@@ -1,0 +1,368 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "instances": [
+        {
+          "url": "https://yam-light-26115623.figma.site/services",
+          "urlHash": "6022825e7d1ae282e400d7f4d71766d5a928987a",
+          "uuid": "6022825e-00-c50df93bc55dd2cec73191ebc7fe5a4805686aaf",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://yam-light-26115623.figma.site/schedule-a-consult",
+          "urlHash": "c1ef75d45151ab8cd8f4c0e150e7dd3a4f30fce1",
+          "uuid": "c1ef75d4-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://yam-light-26115623.figma.site/",
+          "urlHash": "c7f952fbca47107ed7b3d16f8d62b523505db4df",
+          "uuid": "c7f952fb-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "instances": [
+        {
+          "url": "https://yam-light-26115623.figma.site/services",
+          "urlHash": "6022825e7d1ae282e400d7f4d71766d5a928987a",
+          "uuid": "6022825e-10-ddffe001f42590f9749d4a83941330cf033d0055",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://yam-light-26115623.figma.site/schedule-a-consult",
+          "urlHash": "c1ef75d45151ab8cd8f4c0e150e7dd3a4f30fce1",
+          "uuid": "c1ef75d4-07-22b385d4d4819e365e2c9d3245772c4a96025255",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://yam-light-26115623.figma.site/",
+          "urlHash": "c7f952fbca47107ed7b3d16f8d62b523505db4df",
+          "uuid": "c7f952fb-14-ddffe001f42590f9749d4a83941330cf033d0055",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[3]"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Embed (video)",
+      "cluster": 1,
+      "source": "Embed",
+      "target": "Embed",
+      "key": "embedVideo1",
+      "instances": [
+        {
+          "url": "https://yam-light-26115623.figma.site/services",
+          "urlHash": "6022825e7d1ae282e400d7f4d71766d5a928987a",
+          "uuid": "6022825e-04-68bae037ea2e9a338f0f3529730fbacffbfdd76c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://yam-light-26115623.figma.site/",
+          "urlHash": "c7f952fbca47107ed7b3d16f8d62b523505db4df",
+          "uuid": "c7f952fb-02-4aea6901b8b59eb2b57d43b776e879d681b2b83d",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://yam-light-26115623.figma.site/",
+          "urlHash": "c7f952fbca47107ed7b3d16f8d62b523505db4df",
+          "uuid": "c7f952fb-08-68bae037ea2e9a338f0f3529730fbacffbfdd76c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 2,
+      "source": "Columns",
+      "target": "Columns (columns2)",
+      "key": "columns2",
+      "instances": [
+        {
+          "url": "https://yam-light-26115623.figma.site/",
+          "urlHash": "c7f952fbca47107ed7b3d16f8d62b523505db4df",
+          "uuid": "c7f952fb-04-50386324ead24197bfb40195711d109812182995",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 3,
+      "source": "Hero",
+      "target": "Hero (hero3)",
+      "key": "hero3",
+      "instances": [
+        {
+          "url": "https://yam-light-26115623.figma.site/",
+          "urlHash": "c7f952fbca47107ed7b3d16f8d62b523505db4df",
+          "uuid": "c7f952fb-07-0b4de3ff95f8cfc598842f879bfcd2b8d336956c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 4,
+      "source": "Carousel",
+      "target": "Carousel (carousel4)",
+      "key": "carousel4",
+      "instances": [
+        {
+          "url": "https://yam-light-26115623.figma.site/",
+          "urlHash": "c7f952fbca47107ed7b3d16f8d62b523505db4df",
+          "uuid": "c7f952fb-09-58546ef4f169324c9d92012275439e19eb75d14e",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 5,
+      "source": "Columns",
+      "target": "Columns (columns5)",
+      "key": "columns5",
+      "instances": [
+        {
+          "url": "https://yam-light-26115623.figma.site/services",
+          "urlHash": "6022825e7d1ae282e400d7f4d71766d5a928987a",
+          "uuid": "6022825e-10-ddffe001f42590f9749d4a83941330cf033d0055",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://yam-light-26115623.figma.site/schedule-a-consult",
+          "urlHash": "c1ef75d45151ab8cd8f4c0e150e7dd3a4f30fce1",
+          "uuid": "c1ef75d4-07-22b385d4d4819e365e2c9d3245772c4a96025255",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://yam-light-26115623.figma.site/",
+          "urlHash": "c7f952fbca47107ed7b3d16f8d62b523505db4df",
+          "uuid": "c7f952fb-14-ddffe001f42590f9749d4a83941330cf033d0055",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 6,
+      "source": "Hero",
+      "target": "Hero (hero6)",
+      "key": "hero6",
+      "instances": [
+        {
+          "url": "https://yam-light-26115623.figma.site/schedule-a-consult",
+          "urlHash": "c1ef75d45151ab8cd8f4c0e150e7dd3a4f30fce1",
+          "uuid": "c1ef75d4-01-c50df93bc55dd2cec73191ebc7fe5a4805686aaf",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 7,
+      "source": "Cards",
+      "target": "Cards",
+      "key": "cardsNoImages7",
+      "instances": [
+        {
+          "url": "https://yam-light-26115623.figma.site/schedule-a-consult",
+          "urlHash": "c1ef75d45151ab8cd8f4c0e150e7dd3a4f30fce1",
+          "uuid": "c1ef75d4-03-efc491f94d63e462a59f5c4a4dc7e90d6578f911",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 8,
+      "source": "Carousel",
+      "target": "Carousel (carousel8)",
+      "key": "carousel8",
+      "instances": [
+        {
+          "url": "https://yam-light-26115623.figma.site/schedule-a-consult",
+          "urlHash": "c1ef75d45151ab8cd8f4c0e150e7dd3a4f30fce1",
+          "uuid": "c1ef75d4-04-7e05763f6a536e3cf819ce19d48b3a718eaa0511",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 9,
+      "source": "Hero",
+      "target": "Hero (hero9)",
+      "key": "hero9",
+      "instances": [
+        {
+          "url": "https://yam-light-26115623.figma.site/services",
+          "urlHash": "6022825e7d1ae282e400d7f4d71766d5a928987a",
+          "uuid": "6022825e-01-d339c3618e77a6b600a1ce4cfdd16452faea73de",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 10,
+      "source": "Columns",
+      "target": "Columns (columns10)",
+      "key": "columns10",
+      "instances": [
+        {
+          "url": "https://yam-light-26115623.figma.site/services",
+          "urlHash": "6022825e7d1ae282e400d7f4d71766d5a928987a",
+          "uuid": "6022825e-03-0b4de3ff95f8cfc598842f879bfcd2b8d336956c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 11,
+      "source": "Carousel",
+      "target": "Carousel (carousel11)",
+      "key": "carousel11",
+      "instances": [
+        {
+          "url": "https://yam-light-26115623.figma.site/services",
+          "urlHash": "6022825e7d1ae282e400d7f4d71766d5a928987a",
+          "uuid": "6022825e-05-58546ef4f169324c9d92012275439e19eb75d14e",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 12,
+      "source": "Columns",
+      "target": "Columns (columns12)",
+      "key": "columns12",
+      "instances": [
+        {
+          "url": "https://yam-light-26115623.figma.site/services",
+          "urlHash": "6022825e7d1ae282e400d7f4d71766d5a928987a",
+          "uuid": "6022825e-02-b4845f5561bf619058e53b5c082f05b778269446",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://yam-light-26115623.figma.site/services",
+      "urlHash": "6022825e7d1ae282e400d7f4d71766d5a928987a",
+      "uuid": "6022825e-00-c50df93bc55dd2cec73191ebc7fe5a4805686aaf",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/services",
+      "urlHash": "6022825e7d1ae282e400d7f4d71766d5a928987a",
+      "uuid": "6022825e-06-a38eb2c10b3c3dfd212e5d7f5884a556fb829d61",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/services",
+      "urlHash": "6022825e7d1ae282e400d7f4d71766d5a928987a",
+      "uuid": "6022825e-07-b91618111a6547970d280d946b746acbfabf6494",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/services",
+      "urlHash": "6022825e7d1ae282e400d7f4d71766d5a928987a",
+      "uuid": "6022825e-08-d1456a92f18212d1177e87785c47dd47b18f2e2e",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/services",
+      "urlHash": "6022825e7d1ae282e400d7f4d71766d5a928987a",
+      "uuid": "6022825e-09-1cdf988929d5c86ba1e575c10a2ae99fa1b7603b",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/schedule-a-consult",
+      "urlHash": "c1ef75d45151ab8cd8f4c0e150e7dd3a4f30fce1",
+      "uuid": "c1ef75d4-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/schedule-a-consult",
+      "urlHash": "c1ef75d45151ab8cd8f4c0e150e7dd3a4f30fce1",
+      "uuid": "c1ef75d4-02-b0a33a83fb3d8b0452c9ef4d0bce7a6b62923277",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/schedule-a-consult",
+      "urlHash": "c1ef75d45151ab8cd8f4c0e150e7dd3a4f30fce1",
+      "uuid": "c1ef75d4-05-7b7b66a3d970cb25e8b5fed997d5fdedb0e5c63e",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/schedule-a-consult",
+      "urlHash": "c1ef75d45151ab8cd8f4c0e150e7dd3a4f30fce1",
+      "uuid": "c1ef75d4-06-63717350979681f77fcc11313792b2b8551d6dae",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/",
+      "urlHash": "c7f952fbca47107ed7b3d16f8d62b523505db4df",
+      "uuid": "c7f952fb-00-9bdba9f262b3b27bf0c7a22336eb99fb6fab8ce7",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/",
+      "urlHash": "c7f952fbca47107ed7b3d16f8d62b523505db4df",
+      "uuid": "c7f952fb-01-92e82edb8dfa504f011fe6300a2dfaa616f0b742",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/",
+      "urlHash": "c7f952fbca47107ed7b3d16f8d62b523505db4df",
+      "uuid": "c7f952fb-03-6b87f60d0a73970bebaf9adfbdfccf52f6ebc87c",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/",
+      "urlHash": "c7f952fbca47107ed7b3d16f8d62b523505db4df",
+      "uuid": "c7f952fb-05-fa43e50de95edaeedc3bf8e21abb6088e72502d0",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/",
+      "urlHash": "c7f952fbca47107ed7b3d16f8d62b523505db4df",
+      "uuid": "c7f952fb-06-b4845f5561bf619058e53b5c082f05b778269446",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/",
+      "urlHash": "c7f952fbca47107ed7b3d16f8d62b523505db4df",
+      "uuid": "c7f952fb-10-a38eb2c10b3c3dfd212e5d7f5884a556fb829d61",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/",
+      "urlHash": "c7f952fbca47107ed7b3d16f8d62b523505db4df",
+      "uuid": "c7f952fb-11-b91618111a6547970d280d946b746acbfabf6494",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/",
+      "urlHash": "c7f952fbca47107ed7b3d16f8d62b523505db4df",
+      "uuid": "c7f952fb-12-d1456a92f18212d1177e87785c47dd47b18f2e2e",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/",
+      "urlHash": "c7f952fbca47107ed7b3d16f8d62b523505db4df",
+      "uuid": "c7f952fb-13-1cdf988929d5c86ba1e575c10a2ae99fa1b7603b",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[2]"
+    }
+  ]
+}
