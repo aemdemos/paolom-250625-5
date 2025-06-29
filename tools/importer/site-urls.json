@@ -1,0 +1,38 @@
+{
+  "originUrl": "https://yam-light-26115623.figma.site",
+  "lastCrawled": "https://yam-light-26115623.figma.site/",
+  "urls": [
+    {
+      "url": "https://yam-light-26115623.figma.site/",
+      "source": "SITEMAPS",
+      "targetPath": "/",
+      "id": "c7f952fbca47107ed7b3d16f8d62b523505db4df"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/schedule-a-consult",
+      "source": "SITEMAPS",
+      "targetPath": "/schedule-a-consult",
+      "id": "c1ef75d45151ab8cd8f4c0e150e7dd3a4f30fce1"
+    },
+    {
+      "url": "https://yam-light-26115623.figma.site/services",
+      "source": "SITEMAPS",
+      "targetPath": "/services",
+      "id": "6022825e7d1ae282e400d7f4d71766d5a928987a"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": -1,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "sitemaps",
+    "logger": {},
+    "strategiesAttempted": [
+      "SITEMAPS"
+    ]
+  },
+  "extractionErrors": []
+}
