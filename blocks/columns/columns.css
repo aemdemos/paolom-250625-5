@@ -1,3 +1,4 @@
+
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -29,5 +30,62 @@
   .columns > div > div {
     flex: 1;
     order: unset;
+  }
+}
+
+.columns.columns2 {
+  background-color: #FAF8EE;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.columns.columns2 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3rem;
+  margin: 0 auto;
+  padding: 2.5rem 3.5rem;
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+.columns.columns2 > div > div {
+  flex: 1 1 0;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  background: none;
+  box-sizing: border-box;
+}
+
+.columns.columns2 > div > div > *:not(p) {
+  display: none;
+}
+
+.columns.columns2 > div > div > p {
+  color: #222;
+  font-weight: 400;
+  text-align: left;
+  margin: 0 0 1.3em;
+  line-height: 1.6;
+  font-size: 1rem;
+  background: none;
+  padding: 0;
+  box-shadow: none;
+}
+
+@media (width <= 900px) {
+  .columns.columns2 > div {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem 1.2rem;
+    max-width: 100%;
   }
 }
